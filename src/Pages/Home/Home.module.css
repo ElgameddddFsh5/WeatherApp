@@ -1,0 +1,163 @@
+.Main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+}
+
+.Main p {
+  font-size: 1.6rem;
+}
+.Main h1 {
+  font-size: 6rem;
+  display: inline;
+}
+.Main h1 p {
+  display: inline;
+  font-size: 2rem;
+}
+
+.cont {
+  max-width: 700px;
+  height: 700px;
+  margin: auto;
+  padding: 0 1rem;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top {
+  width: 100%;
+  margin: 1rem auto;
+}
+.description {
+  position: relative;
+  right: -90%;
+  transform-origin: 0 0;
+  transform: rotate(269deg);
+}
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.wind {
+}
+.humidity {
+}
+.feels {
+}
+
+.temp {
+}
+.location {
+}
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+
+  .wind p,
+  .humidity p,
+  .feels p {
+    margin-right: 2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .Main {
+    width: 100%;
+  }
+
+  .Main p {
+    font-size: 1rem;
+  }
+  .Main h1 {
+    font-size: 4rem;
+  }
+  .Main h1 p {
+    font-size: 1rem;
+  }
+
+  .cont {
+    max-width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 0 0.5rem;
+  }
+  .top {
+    margin: 0.5rem auto;
+  }
+
+  .bottom {
+    flex-direction: column;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+  }
+  .bottom p {
+    font-size: 0.9rem;
+  }
+  .wind,
+  .feels,
+  .humidity {
+    display: flex;
+    justify-content: space-between;
+  }
+  .wind p,
+  .humidity p,
+  .feels p {
+    margin-right: 2rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .Main {
+    width: 100%;
+  }
+
+  .Main p {
+    font-size: 1rem;
+  }
+  .Main h1 {
+    font-size: 4rem;
+  }
+  .Main h1 p {
+    font-size: 1rem;
+  }
+
+  .cont {
+    max-width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 0 0.5rem;
+  }
+  .top {
+    margin: 0.5rem auto;
+  }
+
+  .bottom {
+    flex-direction: column;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+  }
+  .bottom p {
+    font-size: 0.9rem;
+  }
+  .wind,
+  .feels,
+  .humidity {
+    display: flex;
+    justify-content: space-between;
+  }
+  .wind p,
+  .humidity p,
+  .feels p {
+    margin-right: 2rem;
+  }
+}

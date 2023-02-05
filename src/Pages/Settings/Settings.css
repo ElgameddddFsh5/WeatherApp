@@ -1,0 +1,215 @@
+.settings {
+  width: 100%;
+}
+.settings .text {
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--text-color);
+  padding: 12px 60px;
+}
+body.dark .settings .text {
+  color: var(--text-color);
+}
+.unitscontent {
+  background-color: var(--primary-color-light);
+  color: var(--btn-color) !important;
+  transition: var(--tran-05);
+}
+.tempContent,
+.WindSpeed {
+  height: 50px;
+  background-color: var(--primary-light);
+  border-radius: 10px;
+  opacity: 1;
+  border: 0px;
+  padding: 0.3rem;
+  transition: var(--tran-05);
+}
+.unitscontent label {
+  transition: var(--tran-05);
+}
+.Fahrenheit,
+.Celsius,
+.km,
+.mile {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: var(--tran-05);
+}
+.Fahrenheit.active,
+.Celsius.active,
+.km.active,
+.mile.active {
+  padding: 0.5rem;
+  background-color: var(--btn-light);
+  border-radius: 10px;
+  transition: var(--tran-05);
+}
+.WindSpeed {
+}
+
+@media only screen and (max-width: 1368px) {
+  /*Tablets [601px -> 1200px]*/
+  .settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    transform: translateX(30px);
+  }
+  .settings .text {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px !important;
+  }
+
+  .unitscontent {
+    background-color: var(--primary-color-light);
+    color: var(--btn-color) !important;
+    transition: var(--tran-05);
+    padding: 25px !important;
+    margin: 10px !important;
+    width: 70%;
+  }
+  .units {
+    width: 100%;
+  }
+  .tempContent,
+  .WindSpeed {
+    height: 30px;
+    padding: 0.3rem;
+    width: 100%;
+    height: 50px;
+  }
+  .settings h4 {
+    font-size: 14px;
+    margin: 0 !important;
+  }
+
+  .Fahrenheit,
+  .Celsius,
+  .km,
+  .mile {
+    width: 50%;
+  }
+  .Fahrenheit.active,
+  .Celsius.active,
+  .km.active,
+  .mile.active {
+    padding: 0.5rem;
+  }
+  .WindSpeed {
+  }
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    transform: translateX(30px);
+  }
+  .settings .text {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px !important;
+  }
+
+  .unitscontent {
+    background-color: var(--primary-color-light);
+    color: var(--btn-color) !important;
+    transition: var(--tran-05);
+    padding: 25px !important;
+    margin: 10px !important;
+    width: 70%;
+  }
+  .units {
+    width: 100%;
+  }
+  .tempContent,
+  .WindSpeed {
+    height: 30px;
+    padding: 0.3rem;
+    width: 100%;
+    height: 50px;
+  }
+  .settings h4 {
+    font-size: 14px;
+    margin: 0 !important;
+  }
+
+  .Fahrenheit,
+  .Celsius,
+  .km,
+  .mile {
+    width: 50%;
+  }
+  .Fahrenheit.active,
+  .Celsius.active,
+  .km.active,
+  .mile.active {
+    padding: 0.5rem;
+  }
+  .WindSpeed {
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    transform: translateX(30px);
+  }
+  .settings .text {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px !important;
+  }
+
+  .unitscontent {
+    background-color: var(--primary-color-light);
+    color: var(--btn-color) !important;
+    transition: var(--tran-05);
+    padding: 25px !important;
+    margin: 10px !important;
+    width: 70%;
+  }
+  .units {
+    width: 100%;
+  }
+  .tempContent,
+  .WindSpeed {
+    height: 30px;
+    padding: 0.3rem;
+    width: 100%;
+    height: 50px;
+  }
+  .settings h4 {
+    font-size: 14px;
+    margin: 0 !important;
+  }
+
+  .Fahrenheit,
+  .Celsius,
+  .km,
+  .mile {
+    width: 50%;
+  }
+  .Fahrenheit.active,
+  .Celsius.active,
+  .km.active,
+  .mile.active {
+    padding: 0.5rem;
+  }
+  .WindSpeed {
+  }
+}
